@@ -73,7 +73,7 @@ const HomeScreen = ({ navigation }) => {
 
   return (
     <View style={[styles.container, { backgroundColor: ColorsBasedOnThem.Page_Background_Color }]}>
-    <Text>{URLs}</Text> 
+    <Text>my {URLs}</Text> 
       <FlatList
         data={images}
         renderItem={renderImage}
